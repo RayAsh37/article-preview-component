@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+.master {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	font-size: 13px;
+	font-family: 'Manrope', sans-serif;
+	color: hsl(214, 17%, 51%);
+	background-color: hsl(210, 46%, 95%);
+}
+
+.card {
+	width: 850px;
+	/* width: fit-content; */
+	height: 350px;
+	display: flex;
+	flex-direction: row;
+	max-height: fit-content;
+	justify-content: center;
+	/* align-items: center; */
+	border-radius: 10px;
+	overflow: hidden;
+	/* border: solid; */
+	box-shadow: 10px 10px 50px black;
+	background-color: #fff;
+}
+
+.left-section {
+	overflow: hidden;
+	height: 100%;
+	width: 50%;
+	position: relative;
+}
+
+.left-section img {
+	/* overflow: hidden; */
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: 0px 0px;
+	position: absolute;
+	left: 0px;
+}
+
+.right-section {
+	width: 65%;
+	display: flex;
+	flex-direction: column;
+	padding: 52px;
+	justify-content: space-between;
+}
+
+.heading {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	color: hsl(217, 19%, 35%);
+	font-weight: 700;
+	text-align: left;
+}
+
+.description {
+	font-size: 16px;
+	line-height: 20px;
+	padding: 20px 0px;
+}
+
+.person {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.personPhotoAndDescrip {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	line-height: 20px;
+}
+
+.personPhotoAndDescrip img {
+	width: 50px;
+	height: auto;
+	border-radius: 25px;
+	padding-right: 10px;
+	/* object-fit: cover; */
+}
+
+.personName {
+	font-weight: 700;
+	color: hsl(217, 19%, 35%);
+}
+
+.share {
+	width: 50px;
+	height: 100%;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	background-color: hsl(210, 46%, 95%);
+	/* background-color: hsl(214, 17%, 51%); */
+	position: relative;
+	overflow: visible;
+}
+
+.popSocial {
+	z-index: 1;
+	color: #fff;
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	height: 50px;
+	width: 200px;
+	clip-path: polygon(
+		0 0,
+		100% 0,
+		100% 75%,
+		60% 75%,
+		50% 100%,
+		40% 75%,
+		0 75%
+	);
+	background-color: hsl(214, 17%, 51%);
+}
+
+.share button {
+	all: reset;
+	border: none;
+	outline: none;
+	background: none;
+	box-shadow: none;
+	/* color: #fff; */
+}
+
+.share button img {
+	width: 20px;
+	height: auto;
+	/* filter: invert(100%); */
+}
+
+.share:hover {
+	cursor: pointer;
+}
+
+.share button {
+	cursor: pointer;
+}
+
+.footer {
+	position: fixed;
+	bottom: 5px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+}
