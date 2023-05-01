@@ -1,12 +1,12 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import drawers from './assets/images/drawers.jpg';
 import avatarMichelle from './assets/images/avatar-michelle.jpg';
 import share from './assets/images/icon-share.svg';
-import shareWhite from './assets/images/icon-share-white-arrow.svg';
+// import shareWhite from './assets/images/icon-share-white-arrow.svg';
 import './App.css';
 
 function App() {
-	const [count, setCount] = useState(0);
+	// const [count, setCount] = useState(0);
 
 	return (
 		<>
