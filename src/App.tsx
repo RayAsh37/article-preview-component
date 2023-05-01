@@ -70,7 +70,11 @@ function App() {
 					target='_blank'>
 					Frontend Mentor
 				</a>
-				. Coded by <a href='#'>Your Name Here</a>.
+				. Coded by{' '}
+				<a href='https://github.com/RayAsh37/article-preview-component'>
+					Ashray Shetty
+				</a>
+				.
 			</div>
 		</>
 	);
